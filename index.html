@@ -8,15 +8,6 @@
 <h1>JS Modular</h1>
 Result: <p id="result"></p>
 
-<script src="node_modules/systemjs/dist/system.js"></script>
-<script>
-  SystemJS.config({
-    baseURL: '/build',
-    meta: 'cjs'
-  });
-
-  // loads /js/main.js
-  SystemJS.import('app.js');
-</script>
+<script src="bundle/bundle.js"></script>
 </body>
 </html>
