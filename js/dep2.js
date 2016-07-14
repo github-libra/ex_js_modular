@@ -1,4 +1,4 @@
-var private2 = "private member of dep2";
-var public2 = "public member of dep2";
+let private2 = "private member of dep2";
+let public2 = "public member of dep2";
 
-exports.getPublic = public2;
+export default public2;

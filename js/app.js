@@ -1,5 +1,5 @@
-var dep1 = require('./dep1.js')
-var dep2 = require('./dep2.js')
+import p1 from './dep1.js'
+import p2 from './dep2.js'
     
-var result = dep1.getPublic + dep2.getPublic;
+var result = p1 + p2;
 document.getElementById('result').innerHTML = result;
